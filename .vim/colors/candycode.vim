@@ -1,3 +1,4 @@
+" Test Candy Code
 " Vim color file -- candycode
 " Maintainer:   Justin Constantino <goflyapig-at-gmail-com>
 " Last Change:  2006 Aug 12
