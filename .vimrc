@@ -59,6 +59,12 @@ set hidden
 set nojoinspaces
 set listchars=tab:▸\ ,eol:¬
 set wildmode=longest,list
+" perl tidy webservice
+" to use it:
+" - exit insert mode
+" - type the characters ',' 'p' and then 't'
+" - profit
+map ,pt :%! lwp-request -m POST https://tools.mediatemple.net/cgi-bin/perltidy/index.cgi<CR>
 if has("autocmd")
   autocmd FileType html,css,scss,ruby,pml,yaml,coffee,vim setlocal ts=2 sts=2 sw=2 expandtab
   autocmd FileType javascript setlocal ts=4 sts=4 sw=4 noexpandtab
