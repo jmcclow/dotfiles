@@ -57,7 +57,6 @@ set shiftwidth=4
 set expandtab
 set hidden
 set nojoinspaces
-set listchars=tab:▸\ ,eol:¬
 set wildmode=longest,list
 " perl tidy webservice
 " to use it:
