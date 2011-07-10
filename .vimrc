@@ -1,3 +1,6 @@
+" .vimrc by Jay McClow 2011
+" This file is intended for personal use 
+" but feel free to use any portion of it if you like
 call pathogen#runtime_append_all_bundles()
 call pathogen#helptags()
 " Use Vim settings, rather then Vi settings (much better!).
@@ -6,13 +9,7 @@ set nocompatible
 syntax on
 " allow backspacing over everything in insert mode
 set backspace=indent,eol,start
-
-if has("vms")
-  set nobackup		" do not keep a backup file, use versions instead
-else
-  set backup		" keep a backup file
-endif
-set history=150		" keep 50 lines of command line history
+set history=150		" keep 150 lines of command line history
 set ruler		" show the cursor position all the time
 set showcmd		" display incomplete commands
 set incsearch		" do incremental searching
