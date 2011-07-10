@@ -7,6 +7,7 @@ call pathogen#helptags()
 " This must be first, because it changes other options as a side effect.
 set nocompatible
 syntax on
+colorscheme habilight
 " allow backspacing over everything in insert mode
 set backspace=indent,eol,start
 set history=150		" keep 150 lines of command line history
